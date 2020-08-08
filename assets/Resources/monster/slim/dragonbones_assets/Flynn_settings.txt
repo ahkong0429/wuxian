@@ -1,0 +1,53 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: Flynn
+Scalex: -0.8
+Scaley: 0.8
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack
+Ani Swing: Attack
+Ani Thrust: Attack 
+Ani Missile: Attack
+Ani Skill: Skill Special
+Ani Chant: Skill Special
+Ani Spell: Skill Special
+Ani Item: Skill Special
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+Available Motions:
+Attack
+Damage
+Idle
+Skill Special
+Skill Special B
+Skill Special C
+
+
+Example YEP Action sequence skill
+-Default attack-
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Attack: user
+wait: 30
+animation 67: target
+action effect
+wait: 15
+</target action>

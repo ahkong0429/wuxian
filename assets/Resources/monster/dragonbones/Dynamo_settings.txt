@@ -1,0 +1,53 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: Dynamo
+Scalex: -0.86
+Scaley: 0.86
+Width: 474
+Height: 534
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Skill A
+Ani Swing: Skill A
+Ani Thrust: Skill B
+Ani Missile: Skill A
+Ani Skill: Skill A
+Ani Chant: Idle
+Ani Spell: Idle
+Ani Item: Skill A
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Idle
+Ani Dead: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+Available Motions:
+Attack A
+Attack B
+Attack C
+Attack D
+Attack E
+Damage
+Idle
+
+Sample Action Sequence:
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+motion Attack A: user
+wait: 20
+animation 76: target
+action effect
+wait: 45
+</target action>

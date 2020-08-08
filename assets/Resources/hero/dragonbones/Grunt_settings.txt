@@ -1,0 +1,56 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: Grunt
+Scalex: -1.0
+Scaley: 1.0
+Width: 465
+Height: 352
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack A
+Ani Swing: Attack B
+Ani Thrust: Attack B
+Ani Missile: Attack C
+Ani Skill: Attack C
+Ani Chant: Attack C
+Ani Spell: Attack C
+Ani Item: Attack C
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Idle
+Ani Dead: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+Available Motions:
+Attack A - Normal Slash
+Attack B - Spell Use
+Attack C - Heavy Slash
+Damage
+Idle
+
+Sample Action Sequence:
+Explosive Cleave
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -200
+wait: 6
+motion Attack C: user
+wait: 30
+animation 1: target
+animation 107: target
+action effect
+wait: 30
+move user: return, 30
+</target action>

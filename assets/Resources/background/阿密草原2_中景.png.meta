@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "7235ca69-f7b5-4ce5-aaf6-dd2721207bf4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2160,
+  "height": 760,
+  "platformSettings": {},
+  "subMetas": {
+    "阿密草原2_中景": {
+      "ver": "1.0.4",
+      "uuid": "dae1209c-b14b-4576-be9b-17ddc7e9c2ac",
+      "rawTextureUuid": "7235ca69-f7b5-4ce5-aaf6-dd2721207bf4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 105.5,
+      "trimX": 0,
+      "trimY": 16,
+      "width": 2160,
+      "height": 517,
+      "rawWidth": 2160,
+      "rawHeight": 760,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

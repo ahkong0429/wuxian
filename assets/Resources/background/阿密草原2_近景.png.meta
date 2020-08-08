@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "573fd2c0-46bd-4a5a-a329-ff9de9fb6577",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2160,
+  "height": 760,
+  "platformSettings": {},
+  "subMetas": {
+    "阿密草原2_近景": {
+      "ver": "1.0.4",
+      "uuid": "29a95362-1803-44a1-a365-8c00a6aaae71",
+      "rawTextureUuid": "573fd2c0-46bd-4a5a-a329-ff9de9fb6577",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2160,
+      "height": 760,
+      "rawWidth": 2160,
+      "rawHeight": 760,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

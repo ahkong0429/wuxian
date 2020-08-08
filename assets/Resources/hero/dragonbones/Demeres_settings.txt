@@ -1,0 +1,56 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: Demeres
+Scalex: -0.9
+Scaley: 0.9
+Width: 448
+Height: 538
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack A
+Ani Swing: Attack B
+Ani Thrust: Attack B
+Ani Missile: Attack C
+Ani Skill: Attack C
+Ani Chant: Attack C
+Ani Spell: Attack C
+Ani Item: Attack C
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Idle
+Ani Dead: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+Available Motions:
+Attack A - Short spell
+Attack B - Sword Slash
+Attack C - Extended Spell
+Attack D - Sword spell cast
+Attack E - Physical Strike
+Damage
+Idle
+
+Sample Action Sequence:
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -200
+wait: 6
+motion Attack B: user
+wait: 30
+animation 9: target
+action effect
+wait: 30
+move user: return, 30
+</target action>

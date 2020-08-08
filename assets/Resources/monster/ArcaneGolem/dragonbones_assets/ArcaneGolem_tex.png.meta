@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "e81721b6-4f68-43e7-bea1-e6b82ef03955",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "ArcaneGolem_tex": {
+      "ver": "1.0.4",
+      "uuid": "1a24b030-18be-4e06-b6a8-67502a1a31bd",
+      "rawTextureUuid": "e81721b6-4f68-43e7-bea1-e6b82ef03955",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -78,
+      "offsetY": 12,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 864,
+      "height": 996,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

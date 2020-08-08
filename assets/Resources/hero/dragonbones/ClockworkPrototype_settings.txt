@@ -1,0 +1,79 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- ClockworkPrototype -- Animations
+---------------------
+Idle, IdleWeak, Attack, Skill, Damage
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- ClockworkPrototype -- Enemy Settings
+---------------------
+<DragonBone Settings>
+Battler: ClockworkPrototype
+Scalex: -1
+Scaley: 1
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack
+Ani Swing: Skill
+Ani Thrust: Attack
+Ani Missile: Attack
+Ani Skill: Skill
+Ani Chant: Idle
+Ani Spell: Attack
+Ani Item: Idle
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle
+Ani Sleep: Idle
+Ani Victory: Idle
+Ani Escape: Idle
+Ani Dead: IdleWeak
+
+Replace Sprite
+</DragonBone Settings>
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- ClockworkPrototype -- Recommended Attack Action Sequence
+(offset requires Action Sequence Pack 2 Version 1.12)
+animation [A] - slash animation
+animation [B] - pierce animation
+---------------------
+<Target Action>
+move user: targets, front base, 18, auto offset x -150
+wait: 10
+motion thrust: user
+wait: 30
+animation [A]: target
+action effect
+shake screen: 6, 9, 8
+wait: 8
+animation [B]: target
+action effect
+wait: 5
+</Target Action>
+---------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//-- ClockworkPrototype -- Recommended Skill Action Sequence
+(offset requires Action Sequence Pack 2 Version 1.12)
+animation [A] - slash animation
+animation [B] - pierce animation
+---------------------
+<Target Action>
+move user: targets, front base, 16, auto offset x -250
+wait: 22
+motion skill: user
+wait: 47
+animation [A]: target
+action effect
+wait: 19
+animation [B]: target
+action effect
+wait: 5
+animation [B]: target
+shake screen: 6, 9, 8
+</target Action>
+---------------------

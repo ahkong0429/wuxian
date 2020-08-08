@@ -1,0 +1,106 @@
+*This file is not necessary to be copied into the dragonbones_assets folder.*
+
+Required Scripts for the following Notetags:
+-YEP Skill Core
+-YEP Skill Cooldowns
+-YEP Battle AI Core
+-YEP Action Sequences 1,2 and 3
+-YEP Target Core
+-KELYEP DragonBones
+
+--------------------------
+Actor/Enemy Notetag settings
+--------------------------
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: Jiangshi
+Scalex: -0.9
+Scaley: 0.9
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack
+Ani Swing: Attack
+Ani Thrust: Attack
+Ani Missile: Skill
+Ani Skill: Skill
+Ani Chant: Skill
+Ani Spell: Skill
+Ani Item: Attack
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: IdleWeak
+Ani Sleep: IdleWeak
+Ani Dying: IdleWeak
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+<AI Level: 100>
+<AI Priority>
+Always: Skill 22
+Always: Skill 29
+</AI Priority>
+
+-------------------
+Skill Notetags
+-------------------
+-----------------------------------------------------------------
+Attack Skill example, Skill 22 on Sample Project
+Animation: #1 Hit Physical
+-----------------------------------------------------------------
+<cooldown: 2>
+<Target Action>
+motion evade: user
+move user: targets, front, 20
+wait for movement
+motion swing: user
+wait: 25
+action animation
+wait: 5
+shake screen: 3, 9, 5
+action effect
+death break
+</target Action>
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Special skill example , Skill 29 on Sample Project
+Animation: #101 Darkness One
+----------------------------------------------------------------
+<cooldown: 3>
+<setup action>
+display action
+wait: 5
+hide battle hud
+</setup action>
+
+<Target Action>
+motion spell: user
+wait: 30
+se: Monster4
+action animation: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 10
+action effect: target
+wait: 9
+action effect: target
+wait: 8
+action effect: target
+wait: 7
+action effect: target
+death break
+clear battle log
+wait: 20
+perform finish
+</Target Action>
+
+<follow action>
+show battle hud
+</follow action>
+ 

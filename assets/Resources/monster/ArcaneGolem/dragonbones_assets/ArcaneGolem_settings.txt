@@ -1,0 +1,59 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: ArcaneGolem
+Scalex: -0.8
+Scaley: 0.8
+Width: 360
+Height: 320
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Attack A
+Ani Swing: Attack B
+Ani Thrust: Attack B
+Ani Missile: Attack C
+Ani Skill: Attack C
+Ani Chant: Attack C
+Ani Spell: Attack C
+Ani Item: Attack C
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Idle
+Ani Dead: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+Available Motions:
+Attack A
+Attack B
+Attack C
+Attack D
+Attack E
+Attack F
+Damage
+Idle
+
+Sample Action Sequence:
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Attack A: user
+wait: 30
+animation 4: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>

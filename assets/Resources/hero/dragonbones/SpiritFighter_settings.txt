@@ -1,0 +1,193 @@
+<Attack animation: 7>
+<DragonBone Settings>
+Battler: SpiritFighter
+Scalex: -0.6
+Scaley: 0.6
+
+Ani Wait: Idle
+Ani Walk: Idle
+Ani Attack: Single Punch
+Ani Swing: Single Punch Spirit
+Ani Thrust: Double Punch
+Ani Missile: Double Punch Spirit
+Ani Skill: Spirit Knuckle
+Ani Chant: Idle
+Ani Spell: Idle
+Ani Item: Single Punch
+Ani Guard: Idle
+Ani Evade: Idle
+Ani Damage: Damage
+Ani Abnormal: Idle 
+Ani Sleep: Idle 
+Ani Dying: Damage
+Ani Victory: Idle
+Ani Escape: Idle
+
+Replace Sprite
+</DragonBone Settings>
+
+
+*Sample ACtion Sequences*
+
+*Single Punch*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Single Punch: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+*Single Punch Spirit*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Single Punch Spirit: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+*Spirit Knuckle*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Spirit Knuckle: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+
+*Triple Punch*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Triple Punch: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+wait: 6
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+*Triple Punch Spirit*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Triple Punch Spirit: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+wait: 6
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+action effect
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+*Double Punch*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Double Punch: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+wait: 30
+move user: return, 30
+</target action>
+
+*Double Punch Spirit*
+<setup action>
+display action
+immortal: targets, true
+</setup action>
+
+<target action>
+move user: targets, front, 15, auto offset x -220
+wait: 6
+motion Double Punch Spirit: user
+wait: 30
+animation 20: target
+animation 107: target
+action effect
+wait: 15
+animation 20: target
+animation 107: target
+action effect
+wait: 30
+move user: return, 30
+</target action>

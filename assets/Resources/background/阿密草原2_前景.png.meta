@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d4c9d3a4-94d0-4e55-ab20-5b9d04b6b80c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2160,
+  "height": 760,
+  "platformSettings": {},
+  "subMetas": {
+    "阿密草原2_前景": {
+      "ver": "1.0.4",
+      "uuid": "862d492f-7dc3-4320-82cd-b48ddb08444e",
+      "rawTextureUuid": "d4c9d3a4-94d0-4e55-ab20-5b9d04b6b80c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -316.5,
+      "trimX": 0,
+      "trimY": 633,
+      "width": 2160,
+      "height": 127,
+      "rawWidth": 2160,
+      "rawHeight": 760,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Arcane Golem.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{640,565}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{640,565}}</string>
+                <key>sourceSize</key>
+                <string>{640,565}</string>
+            </dict>
+            <key>Boss Dragon Huanglong.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,569},{435,603}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,1},{435,603}}</string>
+                <key>sourceSize</key>
+                <string>{435,605}</string>
+            </dict>
+            <key>Boss Flynn The Original Slime.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,2},{346,272}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{1,1},{346,272}}</string>
+                <key>sourceSize</key>
+                <string>{348,274}</string>
+            </dict>
+            <key>Thunder Titan Dynamo.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1006},{472,532}}</string>
+                <key>offset</key>
+                <string>{-1,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,1},{472,532}}</string>
+                <key>sourceSize</key>
+                <string>{474,534}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>monster.png</string>
+            <key>size</key>
+            <string>{1024,2048}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:84192a5c7331fcaf6e6ffff438f315da$</string>
+            <key>textureFileName</key>
+            <string>monster.png</string>
+        </dict>
+    </dict>
+</plist>
